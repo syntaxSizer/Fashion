@@ -70,3 +70,25 @@ footer{
 footer a{
 	display: block;
 }
+
+
+
+.navrow {
+    background-color: rgba(34, 34, 34, 0.57);
+}
+
+
+.row {
+max-width: 1350px;
+}
+
+.menu li{
+    padding: 20px;
+
+}
+
+.backgroun1 {
+    background-image: url(../images/superwomen-wallpaper-1600x900.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
