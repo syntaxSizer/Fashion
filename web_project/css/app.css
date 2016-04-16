@@ -12,7 +12,16 @@ GENERAL
 NAV
 ********************************************/
 
+.menu a {
+    color: #fff7f7;
+    font-size: 1.2em;
+}
 
+.menu-centered a:hover{
+    background: #222;
+    transition: 3s;
+
+}
 /*******************************************
 HERO
 ********************************************/
@@ -23,7 +32,11 @@ HERO
     height: 400px;
 }
 .button.success {
-    background-color: orange;
+    background-color: #2e2b2b;
+}
+.button.success:hover{
+    background-color:rgba(34, 34, 34, 0.76);
+    transition: 2s;
 }
 
 /*******************************************
@@ -76,4 +89,12 @@ footer a {
 }
 .menu-centered {
     margin-top: 34px;
+}
+.success {
+    text-align: center;
+    font-size: 1em;
+    /*    color: #FFF;*/
+    /*    background-color: #222;*/
+
+    padding: 12px;
 }
