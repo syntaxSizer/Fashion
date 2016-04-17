@@ -62,8 +62,6 @@ footer a {
 }
 .navrow {
     background-color: rgba(34, 34, 34, 0.57);
-
-
 }
 .row {
     max-width: 1350px;
@@ -93,7 +91,6 @@ footer a {
 }
 .menu-centered {
     margin-top: 34px;
-
 }
 .success {
     text-align: center;
@@ -114,15 +111,31 @@ section.background {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.background2 {
-    background-color: #E4E4E4;
-}
 .likrfooter {
     background-color: rgba(255, 255, 255, 0.26);
     text-align: center;
     letter-spacing: 5px;
 }
-
 .text {
+    text-align: center;
+}
+.aboveimg {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 6px;
+    font-weight: 600;
+}
+.aboveimg p {
+    padding-top: 40px;
+}
+.background2 {
+    background-color: #E4E4E4;
+}
+.musting {
+    font-size: 1em;
+    text-align: center;
+}
+.img {
     text-align: center;
 }
