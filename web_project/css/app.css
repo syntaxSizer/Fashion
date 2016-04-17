@@ -51,9 +51,10 @@ FOTTER
 ********************************************/
 
 footer {
-    height: 10px;
-    background-color: #222;
-    padding: 65px 0px;
+    margin-top: 111px;
+    height: 40px;
+    background-color: rgba(34, 34, 34, 0.57);
+    /*    padding: 6px 0px;*/
 }
 footer a {
     display: block;
@@ -103,9 +104,9 @@ footer a {
     font-family: fantasy;
     color: #222222;
 }
-
-.background2 {
-    background-image: url(../images/fashion_7-wallpaper-1600x900.jpg);
+section.background {
+    height: 100%;
+    background-image: url(../images/fashion_7-wallpaper-2048x1152.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
