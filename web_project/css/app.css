@@ -55,6 +55,7 @@ footer {
     height: 300px;
     background-color: #222;
     padding: 80px 0px;
+    font-weight: 100px;
 }
 footer a {
     display: block;
@@ -139,20 +140,26 @@ section.background {
     text-align: center;
 }
 .text-center {
-    font-size: 2em;
-    color: white;
-}
+    /*    font-size: 2em;*/
 
+    color: #D3D3D3;
+}
 #middle-label {
     background-color: #535151;
     border: solid 1px white;
 }
-
 .btn-2 {
     width: 100%;
-    background-color:#D3D3D3;
+    background-color: #D3D3D3;
     padding: 8px;
     color: #222;
     font-size: 14px;
-
+}
+.social-media li {
+    display: inline-block;
+}
+.social-media a {
+    font-size: 2em;
+    padding: 4px;
+    color: #D3D3D3;
 }
