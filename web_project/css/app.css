@@ -107,7 +107,8 @@ footer a {
     color: #E4E4E4;
 }
 section.background {
-    height: 100%;
+    /*    height: 100%;*/
+
     background-image: url(../images/fashion_7-wallpaper-2048x1152.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -163,4 +164,29 @@ section.background {
     font-size: 2em;
     padding: 4px;
     color: #D3D3D3;
+}
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    /*This is the aspect ratio*/
+
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/**/
+.overlay {
+    background-color: #fff;
+    transition: 2s;
+}
+.overlay:hover {
+    background-color: #E4E4E4;
+    transition: 2s;
 }
