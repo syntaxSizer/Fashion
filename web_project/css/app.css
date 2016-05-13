@@ -190,3 +190,8 @@ section.background {
     background-color: #E4E4E4;
     transition: 2s;
 }
+.border {
+    display: block;
+    border: solid 1px;
+    box-shadow: 3px 3px 3px 7px rgba(34, 34, 34, 0.66);
+}
